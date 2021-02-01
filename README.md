@@ -10,12 +10,12 @@ More information on why zipstrings was initially developed can be found [here](h
 
 To find the printable strings of objects (including archives), or other binary or files in a directory, issue the following command:
 
-```python
+```bash
 $ ./zipstrings.py <dir>
 ```
 
 Note: It is recommended to save the zipstrings output in a file (e.g. to allow faster searches in the output):
 
-```python
+```bash
 $ ./zipstrings.py <dir> > <output filename>
 ```
